@@ -14,7 +14,7 @@ What makes a country happy? The WHR measures six factors across 145 nations. Thi
 
 ### Installation
 ```bash
-git clone https://github.com/YOUR_USERNAME/world-happiness-pca.git
+git clone https://github.com/guhan-ac/world-happiness-pca.git
 cd world-happiness-pca
 pip install pandas numpy matplotlib seaborn scikit-learn scipy openpyxl jupyter
 ```
