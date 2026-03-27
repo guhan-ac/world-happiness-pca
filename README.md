@@ -6,17 +6,6 @@ A machine learning tutorial exploring **Principal Component Analysis (PCA)** app
 
 What makes a country happy? The WHR measures six factors across 145 nations. This tutorial uses PCA to compress these six dimensions into two interpretable axes — revealing geographic clustering and showing that a single "Overall Wellbeing" dimension explains 77% of variance in reported happiness scores (r=0.88).
 
-## Repository Structure
-
-```
-world-happiness-pca/
-├── README.md                        ← You are here
-├── LICENSE                          ← MIT Licence
-├── tutorial.pdf                     ← Main tutorial document (<2000 words, 6 figures)
-├── notebook.ipynb                   ← Full Jupyter notebook with all code and figures
-└── data/
-    └── WHR26_Data_Figure_2_1.xlsx   ← Official WHR 2026 data (download from source)
-```
 
 ## Getting Started
 
@@ -33,7 +22,6 @@ pip install pandas numpy matplotlib seaborn scikit-learn scipy openpyxl jupyter
 ### Data
 Download the official dataset from the World Happiness Report:  
 https://worldhappiness.report/data-sharing/  
-Save as `data/WHR26_Data_Figure_2_1.xlsx`
 
 ### Run
 ```bash
